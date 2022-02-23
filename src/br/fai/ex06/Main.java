@@ -18,6 +18,13 @@ public class Main {
 			System.out.println("Nome do carro: " + nomeDoCarro);
 		}
 		
+		carros[1] = "L200";
+		
+		for (String carro : carros) {
+			System.out.println("Nome do carro: " + carro);
+			
+		}
+		
 	}
 
 }
